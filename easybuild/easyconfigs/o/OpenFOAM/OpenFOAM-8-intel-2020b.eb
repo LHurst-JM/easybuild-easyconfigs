@@ -26,8 +26,8 @@ dependencies = [
     # OpenFOAM requires 64 bit METIS using 32 bit indexes (array indexes)
     ('METIS', '5.1.0'),
     ('SCOTCH', '6.1.0'),
-    ('CGAL', '5.2', '-Python-3.8.6'),
-    ('ParaView', '5.8.1', '-Python-3.8.6-mpi'),
+    ('CGAL', '5.2'),
+    ('ParaView', '5.8.1', '-mpi'),
     ('gnuplot', '5.4.1'),
 ]
 
